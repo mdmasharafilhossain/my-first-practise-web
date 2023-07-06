@@ -28,12 +28,55 @@
     color:blueviolet
 }
 .banner-img{
-    width: 300px;
+    width: 400px;
 }
 .banner-container{
     display: flex;
     justify-content: space-around;
     height:100vb;
     align-items: center;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
+    color: white;
+    background-image: url("./images/background.png"),linear-gradient(45deg,#181818,#292929 );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+
+
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-ttile{
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+}
+.about-text{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.about-text1{
+    font-size: 20px; 
 }
